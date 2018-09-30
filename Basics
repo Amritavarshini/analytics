@@ -1,0 +1,40 @@
+Vector - single dimension --- --c()
+                              --seq(fm, to, by)
+                              --1:10
+                              
+Matrices - vector with multiple dimension (rows and columns)
+                              --x[]
+                              --x[c(1,5)]
+                              --m[ ,1:2]
+                              
+        -rnorm(range/number of variables, mean, sd)
+        -runif
+        
+        -distributions()
+        
+        -setseed(xxxx)
+        -replicate the datagender sample
+        
+        -rollno =1:30
+        -sname=paste('s', 1:30, sep='-')
+        -df=data.frame(rollno, sname, ...., StrinsAsFactor = F)
+        
+        summary(df)
+        
+        -df$gender = factor(df$gender)
+        
+
+-Data scales:
+      -nominal - gender  ====== (no mean, median. mode possible)
+      -ordinal - eg. Excellent, Good, Satisfactory, Poor ===== (count, mode, median)
+      -interval - all functions except of ratios
+      -ratio - all functions
+      
+      
+#read about cbind, rbind, abline
+      
+      
+      
+      
+
+      
